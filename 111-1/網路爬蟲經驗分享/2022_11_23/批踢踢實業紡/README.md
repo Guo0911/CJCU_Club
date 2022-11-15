@@ -25,7 +25,7 @@ pip install bs4
     * 在Cookie中加入`over18=1`
 
 ### **原始畫面**
-![Originial Information](./Image/original%20information.png)
+![Originial Information](./README/original%20information.png)
 
 ### **輸出範例**
 ```
