@@ -16,10 +16,10 @@ for i, title in enumerate(titles):
     try:
         link = title.find('a')['href']
 
-        if ('https' not in link): # 連結內沒有前墜
+        if ('https' not in link):
             link = f'https://www.ptt.cc/{link}'
     
-    except: # 若文章被刪除會沒有連結，導致「title.find('a')['href']」報錯跳到except
+    except:
         link = '文章已被刪除'
     
     finally:
