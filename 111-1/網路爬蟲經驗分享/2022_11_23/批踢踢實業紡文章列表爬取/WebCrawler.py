@@ -1,4 +1,4 @@
-import requests, time
+import requests
 from bs4 import BeautifulSoup
 
 headers = {"cookie": "over18=1",
