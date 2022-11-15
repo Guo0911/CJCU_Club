@@ -26,5 +26,3 @@ for i, title in enumerate(titles):
         title = title.text.replace('\n', '').replace('\t', '')
         
         print(f'第{i+1}篇文章: {title} - {link}')
-        
-        time.sleep(0.1)
