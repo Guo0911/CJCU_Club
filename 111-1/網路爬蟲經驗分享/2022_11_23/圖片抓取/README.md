@@ -14,6 +14,7 @@ pip install bs4
 
 ## **練習題目**
 ### **題目要求**
+請前往網站[圖片爬蟲練習網站](https://guo0911.github.io/WebCrawler/Image/)
 1. 抓取所有圖片
     1. 透過tag抓取
     2. 透過class抓取
