@@ -18,5 +18,5 @@ for i, img in enumerate(imgs):
     img = img['src']
 
     img = requests.get(f'{url}/{img}')
-    with open("images/image" + str(i) + ".jpg", "wb") as file:
+    with open("images/1-image" + str(i+1) + ".jpg", "wb") as file:
         file.write(img.content)
