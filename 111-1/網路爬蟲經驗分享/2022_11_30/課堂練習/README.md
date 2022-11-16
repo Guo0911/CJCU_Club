@@ -23,7 +23,7 @@ pip install bs4
 
 ### **注意事項**
 1. 會員專屬圖片連結會有不同的網域名稱，請仔細觀察後將其排除
-2. 該網址無法透過`class`進行抓取，請透過其他屬性進行爬取
+2. 該網站無法透過`class`進行抓取，請透過其他屬性進行爬取
     * 若屬性包含`-`符號，請改用以下方式:
         * 網站內容: `<img src="link" data-example="this is a example">`
         * 爬蟲方式: `soup.find(attrs={"data-example": "this is a example"})`
