@@ -16,6 +16,7 @@ pip install bs4
 
 ## **練習題目**
 ### **題目要求**
+請前往網站[Beautiful Free Images & Pictures | Unsplash](https://unsplash.com/)
 1. 讓使用者可以自行輸入關鍵字，請輸出提示訊息「請輸入要搜尋的圖片關鍵字(需為英文):」
 2. 抓取20張影像，但必須排除會員專屬的圖片(會有浮水印)
 3. 抓取圖片並儲存到資料夾images中
