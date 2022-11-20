@@ -25,7 +25,7 @@ pip install bs4
     * 在Cookie中加入`over18=1`
 2. 批踢踢實業坊的文章若刪除，會導致標題的連結消失，需另外處理
     * 請依照**輸出範例**內的格式修改網址
-3. 爬蟲所抓取的網址可能會缺少前墜(如:`https://www.ptt.cc/`)，請自行補上
+3. 爬蟲所抓取的網址可能會缺少前綴(如:`https://www.ptt.cc/`)，請自行補上
 
 ### **原始畫面**
 ![Originial Information](./README/original%20information.png)
